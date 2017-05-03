@@ -1,0 +1,70 @@
+body{
+	margin: 0 auto; padding: 0; border: 0;
+}
+header{
+	width: 1460px; margin: 0 auto; padding: 40px 0;
+}
+section{
+	width: 1000px; margin: 0 auto;padding: 40px 0;
+}
+.clear{
+	clear: both;
+}
+.qr{
+	float: right;
+	position: relative;
+	top: 2px;
+	left: 392px;
+}
+.qr:hover{
+	cursor:pointer;
+}
+.ad{
+	float: left;
+}
+#enter{
+	float: right; width: 330px;height: 300px; 
+	border: 2px solid #DEDEDE; border-top: 2px solid #FF4200;padding: 0 30px 10px;
+}
+#enter>div{
+	width: 330px;line-height: 48px;
+}
+#box{
+	padding: 20px 0;
+}
+#box input{
+	float: left;width: 290px;height: 25px;line-height: 25px;
+	border: 1px solid #CCCCCC;border-left: 0;
+}
+span.user{
+	float: left;
+	width: 29px; height: 29px;
+	background: #CCCCCC url(../images/user.png) no-repeat center;
+}
+span.pwd{
+	float: left;
+	width: 29px; height: 29px;
+	background: #CCCCCC url(../images/pwd.png) no-repeat center;
+}
+
+.checkbox a:hover{
+	color: #f73500;
+	text-decoration: none;
+}
+.button input{
+	width: 330px;height: 35px;color: #FFF;background-color: #FF4700;
+	border: 0;border-radius: 5px;font-size: 20px;
+}
+.button input:hover{
+	cursor:pointer;
+	background-color: #f73500;
+}
+
+.others a{
+	color: #666;
+	padding: 0 15px;
+}
+.others a:hover{
+	color: #f73500;
+	text-decoration: none;
+}
